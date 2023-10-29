@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ *
+ {
+  font-family: "Quicksand";
+ }
+:root {
+  /* line-height: 1.5; */
+  /* font-weight: 400; */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+overflow-x: hidden;
+  
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+ 
+  
+  
+} 
+ ::-webkit-scrollbar-thumb {
+  background: rgb(143, 143, 143); 
+  border-radius: 18px; 
+  height: 2px;
+  scroll-behavior: smooth;
+  margin: 10px 0; 
+  
+  
+}
+::-webkit-scrollbar-track {
+  background: rgb(223, 222, 222); 
+}
+.expand:first-child {
+  scroll-behavior: smooth;
+  display: flex;
+}
+.expand{
+  display: flex;
+
+  width: 200px;
+  margin: 0;
+  justify-content: center;
+}
+.expand img{
+  width: 60px;
+}
+.expand p{
+  margin-left: 10px;
+  font-size: 14;
+}
+.expand section{
+  align-items: flex-start;
+  margin-left: -20px;
+
+}
+.expand p{
+  display: flex;
+}
+ .premium{
+  font-size: 10px;
+  
+}
+.search  {
+  display: flex;
+  border: none;
+  margin-left: 5px;
+  transition: all;
+  transition: ease-in-out;
+  transition-property: all;
+}
+.search figure{
+  background-color: gray;
+}
+.search :focus{
+  border:0;
+}
+.notbadge{
+  font-size: 8px;
+  padding-left: 2px;
+  padding-top: -4px;
+
+}
+.movedown{
+  margin-top: 2em;
+}
+.new{
+  display:flex;
+}
+.show{
+  display: flex;
+  
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color:white;
+  } 
+}

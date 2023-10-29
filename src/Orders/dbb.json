@@ -1,0 +1,13 @@
+{
+      "customers":[
+            {
+                  "name": "FUNMILAYO",
+                  "age": "19"
+            },
+            {
+                  "name":"Samuel",
+                  "age":"30"
+
+            }
+      ]
+}
